@@ -1,5 +1,10 @@
 #!/bin/bash
 
+echo "┓ ┏┏┓┓ ┏┓┏┓┳┳┓┏┓  ┳┓┏┓┓ ┳┳┓┓"
+echo "┃┃┃┣ ┃ ┃ ┃┃┃┃┃┣   ┃┃┣┫┃ ┃┃┃┃"
+echo "┗┻┛┗┛┗┛┗┛┗┛┛ ┗┗┛  ┻┛┛┗┗┛┛ ┗┻"
+echo ""
+
 if ! command -v openssl &> /dev/null
 then
     echo "Erreur : OpenSSL n'est pas installé. Veuillez l'installer pour continuer."
@@ -37,3 +42,5 @@ else
 fi
 
 echo "Opération terminée."
+
+alias crypt='bash /Users/dalm1/Desktop/Reroll/Progra/dacry/main.sh'
